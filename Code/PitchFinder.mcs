@@ -1,0 +1,136 @@
+[Header]
+MagicCookie={0b13fe8c-dfe0-40eb-8900-6712719559a7}
+Version=1.0
+[File000]
+Location=C:\Users\keny\Desktop\DSP assigment1\Code\ex_timer.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ256GP506
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Microchip Starter Kits\dsPIC Starter Kit - 1\MPLAB C30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)|C:\Users\keny\Desktop||$(TMPDIR)||$(AINDIR)||$(INCDIR)|E:\Master\DigitalSignalProcessing\Day6\Source_Tree\Source_Tree\user\libs;E:\Master\DigitalSignalProcessing\Day6\Source_Tree\Source_Tree\MicroChip\libs||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|E:\Master\DigitalSignalProcessing\Day6\Source_Tree\Source_Tree\user\libs\peripherals\timers\src\ex_timer.c|E:\Master\DigitalSignalProcessing\Day6\Source_Tree\Source_Tree\user\libs\board\src\ex_sask_generic.c|E:\Master\DigitalSignalProcessing\Day6\Source_Tree\Source_Tree\user\libs\board\src\ex_sask_led.c|E:\Master\DigitalSignalProcessing\Day6\Source_Tree\Source_Tree\MicroChip\libs\board\src\sask.c|src\ex_audio_process.c|E:\Master\DigitalSignalProcessing\Day6\Source_Tree\Source_Tree\MicroChip\libs\peripherals\pwm\src\OCPWMDrv.c|E:\Master\DigitalSignalProcessing\Day6\Source_Tree\Source_Tree\MicroChip\libs\peripherals\adc\src\ADCChannelDrv.c|src\PitchFinderMain.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall
+TraceCmdString=
+DebugOptions=
+[File001]
+Location=C:\Users\keny\Desktop\DSP assigment1\Code\ex_sask_generic.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ256GP506
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Microchip Starter Kits\dsPIC Starter Kit - 1\MPLAB C30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)|C:\Users\keny\Desktop||$(TMPDIR)||$(AINDIR)||$(INCDIR)|E:\Master\DigitalSignalProcessing\Day6\Source_Tree\Source_Tree\user\libs;E:\Master\DigitalSignalProcessing\Day6\Source_Tree\Source_Tree\MicroChip\libs||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|E:\Master\DigitalSignalProcessing\Day6\Source_Tree\Source_Tree\user\libs\peripherals\timers\src\ex_timer.c|E:\Master\DigitalSignalProcessing\Day6\Source_Tree\Source_Tree\user\libs\board\src\ex_sask_generic.c|E:\Master\DigitalSignalProcessing\Day6\Source_Tree\Source_Tree\user\libs\board\src\ex_sask_led.c|E:\Master\DigitalSignalProcessing\Day6\Source_Tree\Source_Tree\MicroChip\libs\board\src\sask.c|src\ex_audio_process.c|E:\Master\DigitalSignalProcessing\Day6\Source_Tree\Source_Tree\MicroChip\libs\peripherals\pwm\src\OCPWMDrv.c|E:\Master\DigitalSignalProcessing\Day6\Source_Tree\Source_Tree\MicroChip\libs\peripherals\adc\src\ADCChannelDrv.c|src\PitchFinderMain.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall
+TraceCmdString=
+DebugOptions=
+[File002]
+Location=C:\Users\keny\Desktop\DSP assigment1\Code\ex_sask_led.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ256GP506
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Microchip Starter Kits\dsPIC Starter Kit - 1\MPLAB C30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)|C:\Users\keny\Desktop||$(TMPDIR)||$(AINDIR)||$(INCDIR)|E:\Master\DigitalSignalProcessing\Day6\Source_Tree\Source_Tree\user\libs;E:\Master\DigitalSignalProcessing\Day6\Source_Tree\Source_Tree\MicroChip\libs||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|E:\Master\DigitalSignalProcessing\Day6\Source_Tree\Source_Tree\user\libs\peripherals\timers\src\ex_timer.c|E:\Master\DigitalSignalProcessing\Day6\Source_Tree\Source_Tree\user\libs\board\src\ex_sask_generic.c|E:\Master\DigitalSignalProcessing\Day6\Source_Tree\Source_Tree\user\libs\board\src\ex_sask_led.c|E:\Master\DigitalSignalProcessing\Day6\Source_Tree\Source_Tree\MicroChip\libs\board\src\sask.c|src\ex_audio_process.c|E:\Master\DigitalSignalProcessing\Day6\Source_Tree\Source_Tree\MicroChip\libs\peripherals\pwm\src\OCPWMDrv.c|E:\Master\DigitalSignalProcessing\Day6\Source_Tree\Source_Tree\MicroChip\libs\peripherals\adc\src\ADCChannelDrv.c|src\PitchFinderMain.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall
+TraceCmdString=
+DebugOptions=
+[File003]
+Location=C:\Users\keny\Desktop\DSP assigment1\Code\sask.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ256GP506
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Microchip Starter Kits\dsPIC Starter Kit - 1\MPLAB C30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)|C:\Users\keny\Desktop||$(TMPDIR)||$(AINDIR)||$(INCDIR)|E:\Master\DigitalSignalProcessing\Day6\Source_Tree\Source_Tree\user\libs;E:\Master\DigitalSignalProcessing\Day6\Source_Tree\Source_Tree\MicroChip\libs||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|E:\Master\DigitalSignalProcessing\Day6\Source_Tree\Source_Tree\user\libs\peripherals\timers\src\ex_timer.c|E:\Master\DigitalSignalProcessing\Day6\Source_Tree\Source_Tree\user\libs\board\src\ex_sask_generic.c|E:\Master\DigitalSignalProcessing\Day6\Source_Tree\Source_Tree\user\libs\board\src\ex_sask_led.c|E:\Master\DigitalSignalProcessing\Day6\Source_Tree\Source_Tree\MicroChip\libs\board\src\sask.c|src\ex_audio_process.c|E:\Master\DigitalSignalProcessing\Day6\Source_Tree\Source_Tree\MicroChip\libs\peripherals\pwm\src\OCPWMDrv.c|E:\Master\DigitalSignalProcessing\Day6\Source_Tree\Source_Tree\MicroChip\libs\peripherals\adc\src\ADCChannelDrv.c|src\PitchFinderMain.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall
+TraceCmdString=
+DebugOptions=
+[File004]
+Location=C:\Users\keny\Desktop\DSP assigment1\Code\ex_audio_process.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ256GP506
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Microchip Starter Kits\dsPIC Starter Kit - 1\MPLAB C30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)|C:\Users\keny\Desktop||$(TMPDIR)||$(AINDIR)||$(INCDIR)|E:\Master\DigitalSignalProcessing\Day6\Source_Tree\Source_Tree\user\libs;E:\Master\DigitalSignalProcessing\Day6\Source_Tree\Source_Tree\MicroChip\libs||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|E:\Master\DigitalSignalProcessing\Day6\Source_Tree\Source_Tree\user\libs\peripherals\timers\src\ex_timer.c|E:\Master\DigitalSignalProcessing\Day6\Source_Tree\Source_Tree\user\libs\board\src\ex_sask_generic.c|E:\Master\DigitalSignalProcessing\Day6\Source_Tree\Source_Tree\user\libs\board\src\ex_sask_led.c|E:\Master\DigitalSignalProcessing\Day6\Source_Tree\Source_Tree\MicroChip\libs\board\src\sask.c|src\ex_audio_process.c|E:\Master\DigitalSignalProcessing\Day6\Source_Tree\Source_Tree\MicroChip\libs\peripherals\pwm\src\OCPWMDrv.c|E:\Master\DigitalSignalProcessing\Day6\Source_Tree\Source_Tree\MicroChip\libs\peripherals\adc\src\ADCChannelDrv.c|src\PitchFinderMain.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall
+TraceCmdString=
+DebugOptions=
+[File005]
+Location=C:\Users\keny\Desktop\DSP assigment1\Code\OCPWMDrv.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ256GP506
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Microchip Starter Kits\dsPIC Starter Kit - 1\MPLAB C30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)|C:\Users\keny\Desktop||$(TMPDIR)||$(AINDIR)||$(INCDIR)|E:\Master\DigitalSignalProcessing\Day6\Source_Tree\Source_Tree\user\libs;E:\Master\DigitalSignalProcessing\Day6\Source_Tree\Source_Tree\MicroChip\libs||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|E:\Master\DigitalSignalProcessing\Day6\Source_Tree\Source_Tree\user\libs\peripherals\timers\src\ex_timer.c|E:\Master\DigitalSignalProcessing\Day6\Source_Tree\Source_Tree\user\libs\board\src\ex_sask_generic.c|E:\Master\DigitalSignalProcessing\Day6\Source_Tree\Source_Tree\user\libs\board\src\ex_sask_led.c|E:\Master\DigitalSignalProcessing\Day6\Source_Tree\Source_Tree\MicroChip\libs\board\src\sask.c|src\ex_audio_process.c|E:\Master\DigitalSignalProcessing\Day6\Source_Tree\Source_Tree\MicroChip\libs\peripherals\pwm\src\OCPWMDrv.c|E:\Master\DigitalSignalProcessing\Day6\Source_Tree\Source_Tree\MicroChip\libs\peripherals\adc\src\ADCChannelDrv.c|src\PitchFinderMain.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall
+TraceCmdString=
+DebugOptions=
+[File006]
+Location=C:\Users\keny\Desktop\DSP assigment1\Code\ADCChannelDrv.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ256GP506
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Microchip Starter Kits\dsPIC Starter Kit - 1\MPLAB C30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)|C:\Users\keny\Desktop||$(TMPDIR)||$(AINDIR)||$(INCDIR)|E:\Master\DigitalSignalProcessing\Day6\Source_Tree\Source_Tree\user\libs;E:\Master\DigitalSignalProcessing\Day6\Source_Tree\Source_Tree\MicroChip\libs||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|E:\Master\DigitalSignalProcessing\Day6\Source_Tree\Source_Tree\user\libs\peripherals\timers\src\ex_timer.c|E:\Master\DigitalSignalProcessing\Day6\Source_Tree\Source_Tree\user\libs\board\src\ex_sask_generic.c|E:\Master\DigitalSignalProcessing\Day6\Source_Tree\Source_Tree\user\libs\board\src\ex_sask_led.c|E:\Master\DigitalSignalProcessing\Day6\Source_Tree\Source_Tree\MicroChip\libs\board\src\sask.c|src\ex_audio_process.c|E:\Master\DigitalSignalProcessing\Day6\Source_Tree\Source_Tree\MicroChip\libs\peripherals\pwm\src\OCPWMDrv.c|E:\Master\DigitalSignalProcessing\Day6\Source_Tree\Source_Tree\MicroChip\libs\peripherals\adc\src\ADCChannelDrv.c|src\PitchFinderMain.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall
+TraceCmdString=
+DebugOptions=
+[File007]
+Location=C:\Users\keny\Desktop\DSP assigment1\Code\PitchFinderMain.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ256GP506
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Microchip Starter Kits\dsPIC Starter Kit - 1\MPLAB C30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)|C:\Users\keny\Desktop||$(TMPDIR)||$(AINDIR)||$(INCDIR)|E:\Master\DigitalSignalProcessing\Day6\Source_Tree\Source_Tree\user\libs;E:\Master\DigitalSignalProcessing\Day6\Source_Tree\Source_Tree\MicroChip\libs||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|E:\Master\DigitalSignalProcessing\Day6\Source_Tree\Source_Tree\user\libs\peripherals\timers\src\ex_timer.c|E:\Master\DigitalSignalProcessing\Day6\Source_Tree\Source_Tree\user\libs\board\src\ex_sask_generic.c|E:\Master\DigitalSignalProcessing\Day6\Source_Tree\Source_Tree\user\libs\board\src\ex_sask_led.c|E:\Master\DigitalSignalProcessing\Day6\Source_Tree\Source_Tree\MicroChip\libs\board\src\sask.c|src\ex_audio_process.c|E:\Master\DigitalSignalProcessing\Day6\Source_Tree\Source_Tree\MicroChip\libs\peripherals\pwm\src\OCPWMDrv.c|E:\Master\DigitalSignalProcessing\Day6\Source_Tree\Source_Tree\MicroChip\libs\peripherals\adc\src\ADCChannelDrv.c|src\PitchFinderMain.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall
+TraceCmdString=
+DebugOptions=
+[File008]
+Location=C:\Users\keny\Desktop\PitchFinder.cof
+Folder=Output
+DeviceName=dsPIC33FJ256GP506
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={433C3D55-811D-409D-A6BF-159CF9355B42}
+LanguageToolLocation=C:\Microchip Starter Kits\dsPIC Starter Kit - 1\MPLAB C30\bin\pic30-ld.exe
+PPAD=$(BINDIR)|C:\Users\keny\Desktop||$(TMPDIR)||$(AINDIR)||$(INCDIR)|E:\Master\DigitalSignalProcessing\Day6\Source_Tree\Source_Tree\user\libs;E:\Master\DigitalSignalProcessing\Day6\Source_Tree\Source_Tree\MicroChip\libs||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|E:\Master\DigitalSignalProcessing\Day6\Source_Tree\Source_Tree\user\libs\peripherals\timers\src\ex_timer.c|E:\Master\DigitalSignalProcessing\Day6\Source_Tree\Source_Tree\user\libs\board\src\ex_sask_generic.c|E:\Master\DigitalSignalProcessing\Day6\Source_Tree\Source_Tree\user\libs\board\src\ex_sask_led.c|E:\Master\DigitalSignalProcessing\Day6\Source_Tree\Source_Tree\MicroChip\libs\board\src\sask.c|src\ex_audio_process.c|E:\Master\DigitalSignalProcessing\Day6\Source_Tree\Source_Tree\MicroChip\libs\peripherals\pwm\src\OCPWMDrv.c|E:\Master\DigitalSignalProcessing\Day6\Source_Tree\Source_Tree\MicroChip\libs\peripherals\adc\src\ADCChannelDrv.c|src\PitchFinderMain.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-o"$(BINDIR_)$(TARGETBASE).$(TARGETSUFFIX)" -Map="$(BINDIR_)$(TARGETBASE).map" --report-mem
+TraceCmdString=
+DebugOptions=
+[File009]
+Location=C:\Users\keny\Desktop\PitchFinder.hex
+Folder=Output
+DeviceName=dsPIC33FJ256GP506
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={433C3D55-811D-409D-A6BF-159CF9355B42}
+LanguageToolLocation=C:\Microchip Starter Kits\dsPIC Starter Kit - 1\MPLAB C30\bin\pic30-ld.exe
+PPAD=$(BINDIR)|C:\Users\keny\Desktop||$(TMPDIR)||$(AINDIR)||$(INCDIR)|E:\Master\DigitalSignalProcessing\Day6\Source_Tree\Source_Tree\user\libs;E:\Master\DigitalSignalProcessing\Day6\Source_Tree\Source_Tree\MicroChip\libs||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|E:\Master\DigitalSignalProcessing\Day6\Source_Tree\Source_Tree\user\libs\peripherals\timers\src\ex_timer.c|E:\Master\DigitalSignalProcessing\Day6\Source_Tree\Source_Tree\user\libs\board\src\ex_sask_generic.c|E:\Master\DigitalSignalProcessing\Day6\Source_Tree\Source_Tree\user\libs\board\src\ex_sask_led.c|E:\Master\DigitalSignalProcessing\Day6\Source_Tree\Source_Tree\MicroChip\libs\board\src\sask.c|src\ex_audio_process.c|E:\Master\DigitalSignalProcessing\Day6\Source_Tree\Source_Tree\MicroChip\libs\peripherals\pwm\src\OCPWMDrv.c|E:\Master\DigitalSignalProcessing\Day6\Source_Tree\Source_Tree\MicroChip\libs\peripherals\adc\src\ADCChannelDrv.c|src\PitchFinderMain.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-o"$(BINDIR_)$(TARGETBASE).$(TARGETSUFFIX)" -Map="$(BINDIR_)$(TARGETBASE).map" --report-mem
+TraceCmdString=
+DebugOptions=
+[TOOL_LOC_STAMPS]
+tool_loc{069BD372-6CA0-40D4-BF2F-5DC806D05083}=C:\Microchip Starter Kits\dsPIC Starter Kit - 1\MPLAB C30\bin\pic30-gcc.exe
+tool_loc{433C3D55-811D-409D-A6BF-159CF9355B42}=C:\Microchip Starter Kits\dsPIC Starter Kit - 1\MPLAB C30\bin\pic30-ld.exe
