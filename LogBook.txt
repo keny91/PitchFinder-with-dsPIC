@@ -3,6 +3,7 @@ Course Work 1. Digital Signal Processing.
 -15/03/2016
 
 _Began working in the assingment.
-_
+_When mixing Led display and voice input the Leds seem to lose their "While button is pressed" functionality,
+ they only trigger with each key press instead.
 
  
