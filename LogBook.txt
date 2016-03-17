@@ -8,3 +8,10 @@ _When mixing Led display and voice input the Leds seem to lose their "While butt
 _Began testing with the FFT, not working so far. 
 
  
+-16/03/2016
+_Efforts focus on getting the FFT to work as is the a step require to extract the Pitch.
+_
+
+-17/03/2016
+_Due to the large amount of linker errors I have decided to start over again. This time I 
+will use the example provided in my StudySpace by the name of "AudioAjuster"

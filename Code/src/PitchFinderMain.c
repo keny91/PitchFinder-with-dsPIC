@@ -27,7 +27,9 @@
   *****/
 
 
-#include <p33FJ256GP506.h>
+#include <dsp\h\dsp.h>
+#include <dsp.h>
+/*#include <p33FJ256GP506.h>*/
 #include <board\h\sask.h>
 
 #include <board\inc\ex_sask_generic.h>
@@ -40,6 +42,10 @@
 #include "..\inc\ex_audio_process.h"
 
 #define FRAME_SIZE        512
+#define FFT_FRAME_SIZE    128
+
+void fourierTransform(int iFrameSize,fractcomplex *compX,fractional *frctAudioIn);
+void inverseFourierTransform(int iFrameSize,fractional *frctAudioWorkSpace,fractcomplex *compX);
 
 
 int   adcBuffer   [ADC_CHANNEL_DMA_BUFSIZE]   __attribute__((space(dma)));
@@ -92,6 +98,7 @@ int main(void)
 	while(1)
 	{
 		//led_switch( led_color );
+
     if(CheckSwitchS1() == 1){
       if(i == 0)
         i = 2;
@@ -152,3 +159,62 @@ int main(void)
 		ex_timer_wait( wait_time );
 	}			
 
+
+
+
+
+
+
+
+
+//variables to store the FFT twiddle factors
+fractcomplex compTwidFactors[FFT_FRAME_SIZE]__attribute__ ((space(xmemory),far));
+fractcomplex compWorkSpace[FFT_FRAME_SIZE]__attribute__ ((space(ymemory),far));
+
+/************************************************************************************************** 
+* @fn fourierTransform 
+* @param int iFrameSize,fractcomplex *compX,fractional *frctAudioIn
+* @return None
+* @brief generates the fourier transform of the inputted signal 
+**************************************************************************************************/
+
+void fourierTransform(int iFrameSize,fractcomplex *compX,fractional *frctAudioIn)
+{
+  int i;
+  
+  //copy fractional audio signal into real part of complex fractional data type
+  for(i=0;i<iFrameSize;i++)
+  {
+    compWorkSpace[i].real = frctAudioIn[i];
+    compWorkSpace[i].imag = 0;
+  } 
+  
+  //generate the first half of the set of twiddle factors required by the DFT
+  TwidFactorInit (7,compTwidFactors,0);
+
+  //generate the DFT of the audio signal
+  FFTComplex(7,compX,compWorkSpace,compTwidFactors,0xFF00);
+}
+
+/************************************************************************************************** 
+* @fn inverseFourierTransform 
+* @param int iFrameSize,fractional *frctAudioWorkSpace,fractcomplex *compX
+* @return None
+* @brief generates the inverse fourier transform of the inputted signal 
+**************************************************************************************************/
+
+void inverseFourierTransform(int iFrameSize,fractional *frctAudioWorkSpace,fractcomplex *compX)
+{
+  int i;
+  
+  //generate the first half of the set of twiddle factors required by the DFT
+  TwidFactorInit (7,compTwidFactors,1);//1 for inverse fourier transform
+
+  //generate the inverse DFT of the audio signals frequency spectrum
+  IFFTComplex(7,compWorkSpace,compX,compTwidFactors,0xFF00);
+
+  for(i=0;i<iFrameSize;i++)
+  {
+    frctAudioWorkSpace[i] = compWorkSpace[i].real;
+  }   
+}
