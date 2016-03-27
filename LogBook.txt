@@ -10,8 +10,30 @@ _Began testing with the FFT, not working so far.
  
 -16/03/2016
 _Efforts focus on getting the FFT to work as is the a step require to extract the Pitch.
-_
+_The inclussion of the FFT requires the management of the
 
 -17/03/2016
 _Due to the large amount of linker errors I have decided to start over again. This time I 
 will use the example provided in my StudySpace by the name of "AudioAjuster"
+_The negative part of the complex FFT is reducing the working frequencies to a half the original bandwidth.
+However the template project has a function that allows us to filter its
+_For further testing I will be using an Android Appliction which allows to output a pure frequency tone
+
+
+-18/03/2016
+_During testings seems I didn´t do the frequency range limitation as it needed. The present version is trying to create an interval 
+of 128 (corresponds to 7 bits) from the range 0 to 8000 Hz. Since we have filtered the negative Complex frequency representation we 
+should be working from 0 to 4000 Hz instead.  
+
+_A working version has been developed. Each of the three LEDs represent a different range of frequencies. Red represent low frequencies, from 0 to 1333 Hz. 
+Yellow for mid-frequencies (1333 tp 2666). Red for high Frequencies (2666 and higher).
+
+_This version has a small flickr at any of the states. So far I have not been able to determine the nature of this problem.
+There is a chance that the input introduces a little noise and this may cause that the other lights briefly activate for an instance.
+However it can be appreciated that the light that was supposed to be active brights for most of the time.
+Another possibility could be that the code contains a bug that causes the flickering lights.
+
+-26/03/2016
+_The code has been reorganized and revisited, but the flickering problem remains. The code could still be incorrectly implemented and there will be further 
+revisions in the future.
+_
